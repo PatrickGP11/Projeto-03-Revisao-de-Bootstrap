@@ -1,0 +1,54 @@
+/* Altura Fixa para o Carousel não "pular" */
+
+.hero-img {
+
+    height: 60vh;
+    /* 60% da altura da tela */
+
+    object-fit: cover;
+    /* Corta a imagem para preencher sem distorcer */
+
+    filter: brightness(0.7);
+    /* Escurece um pouco para o texto aparecer */
+
+}
+
+
+
+/* Padronização das imagens dos Cards */
+
+.card-img-custom {
+
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+
+
+/* Efeito Hover no Card */
+
+.hover-card {
+
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.hover-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+
+/* Ajuste do Navbar Fixo */
+
+body {
+
+    padding-top: 56px;
+
+}
